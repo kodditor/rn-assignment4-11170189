@@ -62,7 +62,7 @@ export default function LoginPage(){
                         />
                     </View>
                     <View style={styles.registerSection}>
-                        <Text>Haven't got an account? <Text style={styles.registerTextHighlight}>Register</Text></Text>
+                        <Text style={styles.registerText}>Haven't got an account? <Text style={styles.registerTextHighlight}>Register</Text></Text>
                     </View>
                 </View>
             </View>
@@ -86,6 +86,7 @@ const styles = StyleSheet.create({
         color: '#0077dd',
         fontSize: 20,
         marginBottom: 10,
+        fontWeight: '700'
     },
     header: {
         fontSize: 25,
@@ -145,9 +146,11 @@ const styles = StyleSheet.create({
         width: 25,
     },
     registerSection: {
-        color: 'grey',
         textAlign: 'center',
         margin: 'auto',
+    },
+    registerText: {
+        color: 'grey',
     },
     registerTextHighlight: {
         color: '#0077dd',

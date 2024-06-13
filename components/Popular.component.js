@@ -38,7 +38,7 @@ export default function PopularComponent(){
                                             flexDirection: 'row',
                                             justifyContent: 'space-between',
                                             alignItems: 'center',
-                                            flex: 1
+                                            flexGrow: 1
                                             }}>
                                             <View>
                                                 <Text style={styles.cardTitle}>{item.title}</Text>

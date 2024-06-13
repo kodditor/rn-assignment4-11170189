@@ -30,7 +30,6 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         gap: 15,
         alignItems: 'center',
-        marginBottom: 40,
     },
     textInput: {
         borderRadius: 1.5,

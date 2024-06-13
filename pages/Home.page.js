@@ -1,5 +1,6 @@
 import { Text, View, StyleSheet, Image } from 'react-native'
 import SearchBar from '../components/SearchBar.component'
+import FeaturedComponent from '../components/Features.component'
 
 export default function HomePage({ route: { params: { name, email} }}){
 
@@ -17,9 +18,7 @@ export default function HomePage({ route: { params: { name, email} }}){
                     />
                 </View>
                 <SearchBar />
-                <View>
-                    {/* Featured Jobs Flatlist */}
-                </View>
+                <FeaturedComponent />
                 <View>
                     {/* Popular Jobs Flatlist */}
                 </View>
